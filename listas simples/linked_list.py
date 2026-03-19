@@ -61,9 +61,6 @@ class TaskList:
         node.description = new_description
         return True
 
-    # ------------------------------
-    # DELETE TASK BY POSITION
-    # ------------------------------
     def delete_task(self, position):
         if self.head is None:
             return False
